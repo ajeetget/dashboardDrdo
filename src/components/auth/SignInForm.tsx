@@ -12,9 +12,9 @@ export default function SignInForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [isChecked, setIsChecked] = useState(false);
    const navigate = useNavigate();
-   const handleSignIn = () => {   
-    navigate("/home");
-  };
+   const handleSignIn = () => {
+  navigate("/home", { replace: true });
+};
   return (
     <div className="flex flex-col flex-1">     
       <div className="flex flex-col justify-center flex-1 w-full max-w-md mx-auto">
