@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import ComponentCard from '../../components/common/ComponentCard';
 import Label from '../../components/form/Label';
 import Input from '../../components/form/input/InputField';

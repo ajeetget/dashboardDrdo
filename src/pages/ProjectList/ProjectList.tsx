@@ -1,14 +1,10 @@
-
-import React from "react";
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import PageMeta from "../../components/common/PageMeta";
 import ProjectListTable from "../../components/tables/BasicTables/ProjectListTable";
 
 const ProjectList = () => {
   return (
-    // Root wrapper
     <div className="w-full min-w-0">
-      {/* Meta */}
       <PageMeta
         title="Project List Dashboard | Admin Dashboard"
         description="This is Project List page"

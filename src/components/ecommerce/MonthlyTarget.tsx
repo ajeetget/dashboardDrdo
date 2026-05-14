@@ -1,10 +1,9 @@
 import Chart from "react-apexcharts";
 import { ApexOptions } from "apexcharts";
-import { useState } from "react";
+
 
 
 export default function MonthlyTarget() {
-  const [isOpen, setIsOpen] = useState(false);
   const series = [75.55];
   const options: ApexOptions = {
     colors: ["#465FFF"],
