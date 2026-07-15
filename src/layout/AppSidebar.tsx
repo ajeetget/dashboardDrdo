@@ -25,6 +25,11 @@ type NavItem = {
 const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
+    name: "Admin",
+    path: "/admin",   
+  },
+  {
+    icon: <GridIcon />,
     name: "Home",
     path: "/home",   
   },
@@ -33,11 +38,8 @@ const navItems: NavItem[] = [
     name: "Verticals",
     subItems: [
       { name: "Vertical 1", path: "/vertical-list", pro: false },
-      { name: "Vertical 2", path: "/vertical-list", pro: false },
-      { name: "Vertical 3", path: "/vertical-list", pro: false },
-      { name: "Vertical 4", path: "/vertical-list", pro: false },
-      { name: "Vertical 5", path: "/vertical-list", pro: false },
-      { name: "Vertical 6", path: "/project-list", pro: false },      
+      // { name: "Vertical 2", path: "/vertical-list", pro: false },   
+      // { name: "Vertical 6", path: "/project-list", pro: false },      
     ],
   },
   {
