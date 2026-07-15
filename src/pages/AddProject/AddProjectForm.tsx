@@ -25,8 +25,8 @@ const AddProjectForm = () => {
       <ComponentCard title="">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div>
-                <Label htmlFor="projectCode">Project Code</Label>
-                <Input type="text" id="projectCode" name="projectCode" placeholder="Project Code" />
+                <Label htmlFor="researchVerticalCode">Research Vertical Code</Label>
+                <Input type="text" id="researchVerticalCode" name="researchVerticalCode" placeholder="Project Code" />
             </div>
 
             <div>
@@ -40,32 +40,37 @@ const AddProjectForm = () => {
             </div>
 
             <div>
-                <Label htmlFor="scientistName">Scientist Name</Label>
-                <Input type="text" id="scientistName" name="scientistName" placeholder="Scientist Name" />
+                <Label htmlFor="stakeholdingLab">Stakeholding Lab</Label>
+                <Input type="text" id="stakeholdingLab" name="stakeholdingLab" placeholder="Stakeholding Lab" />
             </div>
 
             <div>
-                <Label htmlFor="startDate">Start Date</Label>
-                <DatePicker id="startDate"  />
+                <Label htmlFor="budget">Budget</Label>
+                <Input type="text" id="budget" name="budget" placeholder="Budget" />
             </div>
 
             <div>
-                <Label htmlFor="endDate">End Date</Label>
-                <DatePicker id="endDate" />
+                <Label htmlFor="initialProjectReceivedDate">initial Project Received Date</Label>
+                <DatePicker id="initialProjectReceivedDate" />
             </div>
 
             <div>
-                <Label htmlFor="totalBudgetApproved">Total Budget Approved</Label>
-                <Input type="text" id="totalBudgetApproved" name="totalBudgetApproved" placeholder="Total Budget Approved" />
+                <Label htmlFor="sanctionDate">Sanction Date</Label>
+                <DatePicker id="sanctionDate"  />
             </div>
 
             <div>
-                <Label htmlFor="expenditures">Expenditures </Label>
-                <Input type="text" id="expenditures" name="expenditures" placeholder="Expenditures" />
+                <Label htmlFor="originalPdc">Original Pdc</Label>
+                <Input type="text" id="originalPdc" name="originalPdc" placeholder="Original Pdc" />
             </div>
 
             <div>
-                <Label>Status</Label>
+                <Label htmlFor="revisedPdc">Revised Pdc </Label>
+                <Input type="text" id="revisedPdc" name="revisedPdc" placeholder="Revised Pdc" />
+            </div>
+
+            <div>
+                <Label htmlFor="presentStatus">Present Status</Label>
                 <Select
                     options={options}
                     onChange={handleSelectChange}
@@ -75,8 +80,50 @@ const AddProjectForm = () => {
             </div>
 
             <div>
-                <Label htmlFor="reviewRemarks">Review Remarks</Label>
-                <Input type="text" id="reviewRemarks" name="reviewRemarks" placeholder="Review Remarks" />
+                <Label htmlFor="tec">tec</Label>
+                <Input type="text" id="tec" name="tec" placeholder="tec" />
+            </div>
+
+            <div>
+                <Label htmlFor="gcApproval">gcApproval</Label>
+                <Input type="text" id="gcApproval" name="gcApproval" placeholder="gcApproval" />
+            </div>
+
+            
+
+            <div>
+                <Label htmlFor="financiallyClosed">financiallyClosed</Label>
+                <Input type="text" id="financiallyClosed" name="financiallyClosed" placeholder="financiallyClosed" />
+            </div>
+
+            <div>
+                <Label htmlFor="labRecommendation">labRecommendation</Label>
+                <Input type="text" id="labRecommendation" name="labRecommendation" placeholder="labRecommendation" />
+            </div>
+
+            <div>
+                <Label htmlFor="technicallyClosed">technicallyClosed</Label>
+                <Input type="text" id="technicallyClosed" name="technicallyClosed" placeholder="technicallyClosed" />
+            </div>
+
+            <div>
+                <Label htmlFor="administrativeStatus">administrativeStatus</Label>
+                <Input type="text" id="administrativeStatus" name="administrativeStatus" placeholder="administrativeStatus" />
+            </div>
+
+            <div>
+                <Label htmlFor="piPhone">piPhone</Label>
+                <Input type="text" id="piPhone" name="piPhone" placeholder="piPhone" />
+            </div>
+
+            <div>
+                <Label htmlFor="piEmail">piEmail</Label>
+                <Input type="text" id="piEmail" name="piEmail" placeholder="piEmail" />
+            </div>
+
+            <div>
+                <Label htmlFor="lastTec">lastTec</Label>
+                <Input type="text" id="lastTec" name="lastTec" placeholder="lastTec" />
             </div>
 
             <div>

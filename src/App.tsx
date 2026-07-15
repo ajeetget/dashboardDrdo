@@ -12,6 +12,7 @@ import Home from "./pages/Dashboard/Home";
 import AddProject from "./pages/AddProject/AddProject";
 import EditProject from "./pages/EditProject/EditProject";
 import ProjectList from "./pages/ProjectList/ProjectList";
+import VerticalList from "./pages/VerticalList/VerticalList";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/add-project" element={<AddProject />} />
             <Route path="/edit-project" element={<EditProject />} />
             <Route path="/project-list" element={<ProjectList />} />
+             <Route path="/vertical-list" element={<VerticalList />} />
 
             {/* Others Page */}
             <Route path="/profile" element={<UserProfiles />} />

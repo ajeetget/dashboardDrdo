@@ -25,12 +25,25 @@ type NavItem = {
 const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
-    name: "Dashboard",
+    name: "Home",
+    path: "/home",   
+  },
+  {
+    icon: <GridIcon />,
+    name: "Verticals",
     subItems: [
-      { name: "Home", path: "/home", pro: false },
-      { name: "Project List", path: "/project-list", pro: false },
-      { name: "Add Project", path: "/add-project", pro: false },     
+      { name: "Vertical 1", path: "/vertical-list", pro: false },
+      { name: "Vertical 2", path: "/vertical-list", pro: false },
+      { name: "Vertical 3", path: "/vertical-list", pro: false },
+      { name: "Vertical 4", path: "/vertical-list", pro: false },
+      { name: "Vertical 5", path: "/vertical-list", pro: false },
+      { name: "Vertical 6", path: "/project-list", pro: false },      
     ],
+  },
+  {
+    icon: <GridIcon />,
+    name: "Add Vertical",
+    path: "/add-project",   
   },
   {
     icon: <CalenderIcon />,
